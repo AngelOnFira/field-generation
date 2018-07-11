@@ -9,6 +9,7 @@ var bStart = 47;
 var rEnd = 0;
 var gEnd = 0;
 var bEnd = 0;
+// 34, 34, 34
 // var rEnd = 255;
 // var gEnd = 255;
 // var bEnd = 255;
@@ -68,7 +69,6 @@ function setup() {
         var comb = [pos, color];
         generators.push(comb);
     }
-
     renderPolygons(xSize, ySize, generators);
 }
 
