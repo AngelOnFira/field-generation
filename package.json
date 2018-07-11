@@ -1,0 +1,24 @@
+{
+  "name": "voronoi-generator",
+  "version": "1.0.0",
+  "description": "A simple Voronoi generator that makes use of P5.js.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricBellamy/voronoi-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricBellamy/voronoi-generator/issues"
+  },
+  "homepage": "https://github.com/EricBellamy/voronoi-generator#readme"
+}
