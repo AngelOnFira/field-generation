@@ -2,9 +2,9 @@
 // var gStart = 15;
 // var bStart = 105;
 
-var rStart = 0;
-var gStart = 175;
-var bStart = 215;
+var rStart = 175;
+var gStart = 39;
+var bStart = 47;
 
 // var rEnd = 0;
 // var gEnd = 103;
