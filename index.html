@@ -90,7 +90,7 @@
         width: 320px;
         height: 320px;
         border: 2px solid #00afd7;
-        border-radius: 10px;
+        border-radius: 50%;
         overflow: hidden;
     }
 
@@ -212,7 +212,7 @@
     }
 
     #canvasContainer {
-        
+
     }
 
     #canvasBackground {
@@ -233,10 +233,10 @@
         <div id='navContainer'>
             <div id='navSocials' class='noselect'>
                 <a class='navSocial githubSocial' href='https://www.github.com/ericbellamy' target='_blank'>
-                    <div class='svg' src='/ic/social-github.svg'></div>
+                    <div class='svg' src='ic/social-github.svg'></div>
                 </a>
                 <a class='navSocial' href='https://www.linkedin.com/ericbellamy' target='_blank'>
-                    <div class='svg' src='/ic/social-linkedin.svg'></div>
+                    <div class='svg' src='ic/social-linkedin.svg'></div>
                 </a>
             </div>
             <ul id='navList'>
@@ -258,7 +258,7 @@
     <section id='aboutContainer'>
         <div id='aboutContent' class='pageContent'>
             <div id='aboutLeft'>
-                <img data-lazysrc='/img/profile2.jpg' />
+                <img data-lazysrc='img/profile2.jpg' />
             </div>
             <div id='aboutRight'>
                 <div id='aboutTitle'>Summary</div>
@@ -274,7 +274,7 @@
         <div id='workContent' class='pageContent'>
             <div class='work'>
                 <div class='workImg'>
-                    <img data-lazysrc='/img/miraclemerchant.jpg' />
+                    <img data-lazysrc='img/miraclemerchant.jpg' />
                 </div>
                 <div class='workContent'>
                     <div class='workTitle'>Miracle Merchant AI</div>
@@ -289,7 +289,7 @@
             </div>
             <div class='work'>
                 <div class='workImg'>
-                    <img data-lazysrc='/img/forced-divided.png' />
+                    <img data-lazysrc='img/forced-divided.png' />
                 </div>
                 <div class='workContent'>
                     <div class='workTitle'>Forces Divided</div>
@@ -303,7 +303,7 @@
             </div>
             <div class='work'>
                 <div class='workImg'>
-                    <img data-lazysrc='/img/cuhlogo.png' />
+                    <img data-lazysrc='img/cuhlogo.png' />
                 </div>
                 <div class='workContent'>
                     <div class='workTitle'>CUHacking App</div>
@@ -319,7 +319,7 @@
         </div>
     </section>
     <noscript id="deferred-styles">
-        <link rel="stylesheet" type="text/css" href="/styles.css" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
     </noscript>
     <script>
     var loadDeferredStyles = function() {
@@ -339,10 +339,10 @@
     </script>
     <script type="text/javascript" async defer>
     [
-        '/js/min/imgtosvg.js', //--> Load svgs first
-        '/js/min/lazyload.js',
-        '/js/p5.js',
-        '/js/sketch.js',
+        'js/min/imgtosvg.js', //--> Load svgs first
+        'js/min/lazyload.js',
+        'js/p5.js',
+        'js/sketch.js',
     ].forEach(function(src) {
         var script = document.createElement('script');
         script.src = src;
