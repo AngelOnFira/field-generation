@@ -6,12 +6,12 @@ var rStart = 175;
 var gStart = 39;
 var bStart = 47;
 
-// var rEnd = 0;
-// var gEnd = 103;
-// var bEnd = 160;
-var rEnd = 255;
-var gEnd = 255;
-var bEnd = 255;
+var rEnd = 0;
+var gEnd = 0;
+var bEnd = 0;
+// var rEnd = 255;
+// var gEnd = 255;
+// var bEnd = 255;
 
 var squareSize = 20;
 var baseSquareSize = 6;
